@@ -4,42 +4,58 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>生活记录</title>
-        <link rel="stylesheet" href="/life/indexhead.css">
+        <link rel="stylesheet" href="./indexhead.css">
 
     </head>
-   <body>
-        <h1 class="header-mode">here will be a title</h1>
+    <body>
+        <h1 class="header-mode">未名的记忆切片</h1>
 	    <header class="indexstyle">
             <ul class="indexlist">
-                <li><a href="/life/index.html" class="a-none-class">首页</a></li>
-                <li><a style="color:RGB(0,0,0)"><a href="/life/records.html" class="a-none-class">记录</a></li>
-                <li>资源</li>
-                <li><a href="/life/aboutSite.html" class="a-none-class">关于网站</a></li>
-                <li>关于我</li>
+                <li><a href="./index.html" class="a-none-class">首页</a></li>
+                <li style="color:RGB(0,0,0)"><a href="./records.html" class="a-none-class">记录</a></li>
+                <li><a href="./resources.html" class="a-none-class">资源</a></li>
+                <li><a href="./aboutSite.html" class="a-none-class">关于网站</a></li>
+                <li><a href="./aboutMe.html" class="a-none-class">关于我</a></li>
             </ul>
 	    </header>
-        <div style="width:100%">
+        <div class="div-unhead">
             <div class="list-left">
                 <u1 class="guide">
                     <li><b>记录</b></li>
-                    <li>更新记录</li>
+                    <li><a href="#r4" class="a-none-class">资源板块初始化</a></li>
+                    <li><a href="#r3" class="a-none-class">网站诞生</a></li>
+                    <li><a href="#r2" class="a-none-class">仲夏夜虫梦</a></li>
+                    <li><a href="#r1" class="a-none-class">2025寒假总结</a></li>
                     
                 </u1>
             </div>
             <div class="div-p">
-                <h2 style="text-align: center;font-size:30px;margin-top:100px;margin-bottom:100px;">这里是我的一些记录</h2>
+                <h2 style="text-align: center;font-size:30px;margin-top:100px;margin-bottom:100px;" id="section1">这里是我的一些记录</h2>
                 <hr>
-                <div class="record-div">
-                  <span style="font-size:25px">这个网站诞生的故事</span>
+                <a href="./resources.html" class="a-none-class">
+                    <div class="record-div" id="r4">
+                        <span class="record-text">资源板块初始化</span>
+                    </div>
+                    </a>
+                <a href="./aboutSite.html" class="a-none-class">
+                <div class="record-div" id="r3">
+                    <img src="./site's birth.jpg" width="256" height="160" class="record-img">
+                    <span class="record-text">这个网站诞生的故事</span>
                 </div>
-                <div class="record-div">
-                    <span style="font-size:25px">仲夏夜虫梦</span>
+                </a>
+                <a href="./bugcat's dream.html" class="a-none-class">
+                <div class="record-div" id="r2">
+                    <img src="./bugcat img.jpg" width="256" height="160" class="record-img">
+                    <span class="record-text">仲夏夜虫梦</span>
                 </div>
-                <div class="record-div">
-                    <span style="font-size:25px">《仲夏夜虫梦》开发趣逝</span>
+                </a>
+                <a href="./dvlp202502.html" class="a-none-class">
+                <div class="record-div" id="r1">
+                    <span class="record-text">2025寒假总结</span>
                 </div>
-        </div>
+                </a>
             </div>
+        </div>
             
     </body>
 </html>
